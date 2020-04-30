@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+
+<head>
+
+ <link rel="stylesheet" href="styles.css">   
+ <h1> WatchDog</h1>
+
+</head>
+
+ 
+
+<body>
+   <table>
+        <tr>
+            <td>First name</td><td>Last name</td><td>Phone number</td>
+        </tr>
+        <tr>
+            <form method = "POST" action = "Upload.php" id="upload_form">        
+            <td><input type="text" id="column1"> </td><td><input type="text" id="column2"> </td><td><input type="text" id="column3" pattern="[0-9] {9-12}"> </td>
+            </form>    
+        </tr>
+    </table>
+    <button type ="submit" onClick>New data</button> <br><br>
+
+
+    <input type="range" min="1" max="20" required>
+
+
+
+    <script>
+
+
+        var form = document.getElementById("upload_form");
+        form.reset
+    </script>
+
+    <a href="https://www.kindpng.com/imgv/hTmobTb_pitbull-logo-png-png-download-pitbull-sticker-transparent/"><img src="C:\Users\2anni\Downloads\pitbull.png" id="pitbull_img" width="500px" height="=500px"></a>
+
+    <br>
+    <br>
+
+    <form method = "POST" action = "Upload.php">
+
+        <label for ="fname">First name:</label><br>
+        <input type = "text" id ="fname" name="fname"><br>
+        <label for ="ename">Last name:</label><br>
+        <input type = "text" id ="ename" name="ename"><br>
+        <label for ="email">Email:</label><br>
+        <input type = "text" id ="email" name="email"><br>
+
+    </form>
+
+    <button type ="submit">Upload</button>
+</body>
